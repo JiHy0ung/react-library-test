@@ -1,7 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import { Outlet, useNavigate } from "react-router";
-import authStore from "../stores/AuthStore";
+import authStore from "../stores/authStore";
 
 const AppLayout = () => {
   const navigate = useNavigate();
