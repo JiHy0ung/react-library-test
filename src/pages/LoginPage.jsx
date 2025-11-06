@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
-import authStore from "../stores/authStore";
+import authStore from "../stores/AuthStore";
 
 const LoginPage = () => {
   const [userName, setUserName] = useState("");
