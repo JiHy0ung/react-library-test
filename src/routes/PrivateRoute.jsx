@@ -1,5 +1,5 @@
 import React from "react";
-import authStore from "../stores/AuthStore";
+import authStore from "../stores/authStore";
 import MyBooksPage from "../pages/MyBooksPage";
 import { Navigate } from "react-router";
 
