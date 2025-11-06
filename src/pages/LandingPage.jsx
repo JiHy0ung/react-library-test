@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
-import authStore from "../stores/AuthStore";
+import authStore from "../stores/authStore";
 import BookCard from "../components/BookCard";
 import { useGetPopularBooks } from "../hooks/useGetPopularBooks";
 
